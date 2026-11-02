@@ -204,7 +204,7 @@ function App() {
           </div>
         </section>
 
-        <section className="projects-section section-pad" id="projects">
+        {/* <section className="projects-section section-pad" id="projects">
           <div className="section-wrap">
             <div className="section-heading"><div><div className="eyebrow"><span className="eyebrow-dot"/> MADE WITH CURIOSITY</div><h2>أفكار بتتحوّل <span>لحاجة حقيقية.</span></h2><p>أمثلة لنوع المشاريع اللي بيبنيها الطلاب داخل المسارات. هنضيف هنا شغل طلاب AF Code الحقيقي بعد موافقة أولياء الأمور.</p></div><div className="slider-controls"><button onClick={() => setProjectIndex((projectIndex + siteData.projects.length - 1) % siteData.projects.length)} aria-label="المشروع السابق"><ChevronRight/></button><button onClick={() => setProjectIndex((projectIndex + 1) % siteData.projects.length)} aria-label="المشروع التالي"><ChevronLeft/></button></div></div>
             <div className="project-grid">
@@ -215,7 +215,7 @@ function App() {
             </div>
             <div className="project-disclaimer"><span><Lightbulb size={17}/></span> دي أفكار مشاريع توضيحية، وليست أعمال طلاب حقيقية.</div>
           </div>
-        </section>
+        </section> */}
 
         <section className="team-section section-pad" id="team">
           <div className="section-wrap">
